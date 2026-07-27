@@ -77,3 +77,20 @@ button:hover {
         0 0 60px #00ffff;
     }
 }
+.logo-img {
+    width: 250px;
+    max-width: 90%;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px #00ffff);
+    animation: logoGlow 2s infinite alternate;
+}
+
+@keyframes logoGlow {
+    from {
+        filter: drop-shadow(0 0 10px #00ffff);
+    }
+
+    to {
+        filter: drop-shadow(0 0 30px #00ffff);
+    }
+}
