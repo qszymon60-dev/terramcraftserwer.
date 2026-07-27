@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255,255,255,0.08);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+h1 {
+    color: #00ffff;
+}
+
+.ip-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    background: #00ffff;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00cccc;
+}
+
+.discord {
+    display: inline-block;
+    margin-top: 20px;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.discord:hover {
+    background: #4752c4;
+}
