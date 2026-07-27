@@ -90,6 +90,16 @@ button:hover {
         filter: drop-shadow(0 0 10px #00ffff);
     }
 
+    .status {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(0, 255, 100, 0.15);
+    border: 2px solid #00ff66;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0,255,100,0.5);
+}
     to {
         filter: drop-shadow(0 0 30px #00ffff);
     }
