@@ -15,9 +15,14 @@ body {
     box-shadow: 0 0 30px rgba(0,255,255,0.5);
     border: 2px solid rgba(0,255,255,0.4);
 }
-
 h1 {
     color: #00ffff;
+    font-size: 45px;
+    text-shadow:
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+    animation: glow 2s infinite alternate;
 }
 
 .ip-box {
@@ -54,4 +59,16 @@ button:hover {
 
 .discord:hover {
     background: #4752c4;
+}
+@keyframes glow {
+    from {
+        text-shadow:
+        0 0 10px #00ffff;
+    }
+
+    to {
+        text-shadow:
+        0 0 30px #00ffff,
+        0 0 60px #00ffff;
+    }
 }
