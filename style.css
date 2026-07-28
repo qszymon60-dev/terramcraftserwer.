@@ -127,3 +127,31 @@ function copyIP() {
     transform: scale(1.1);
     box-shadow: 0 0 45px rgba(88,101,242,1);
 }
+.vip {
+    border-color: #ffd700;
+    box-shadow: 0 0 30px rgba(255,215,0,0.7);
+}
+
+.vip h3 {
+    color: #ffd700;
+}
+
+
+.mvp {
+    border-color: #0033cc;
+    box-shadow: 0 0 30px rgba(0,51,204,0.7);
+}
+
+.mvp h3 {
+    color: #0033cc;
+}
+
+
+.elita {
+    border-color: #9b00ff;
+    box-shadow: 0 0 30px rgba(155,0,255,0.7);
+}
+
+.elita h3 {
+    color: #9b00ff;
+}
