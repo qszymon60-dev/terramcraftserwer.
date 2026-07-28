@@ -105,3 +105,8 @@ button:hover {
 .discord-btn:hover {
     transform: scale(1.08);
 }
+function copyIP() {
+    navigator.clipboard.writeText("terramcraft.falix.gg");
+
+    alert("IP skopiowane!");
+}
