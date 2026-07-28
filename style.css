@@ -18,6 +18,7 @@ overflow-x: hidden;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,255,255,0.5);
     border: 2px solid rgba(0,255,255,0.4);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 h1 {
@@ -119,4 +120,8 @@ button:hover {
         opacity: 1;
         transform: translateY(0);
     }
+}
+.container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 45px rgba(0,255,255,0.8);
 }
