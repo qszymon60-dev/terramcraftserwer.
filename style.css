@@ -6,7 +6,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
 
 animation: fadeIn 1.2s ease;
 overflow-x: hidden;
@@ -120,7 +122,7 @@ button:hover {
         opacity: 1;
         transform: translateY(0);
     }
-}
+
 .container:hover {
     transform: translateY(-8px);
     box-shadow: 0 0 45px rgba(0,255,255,0.8);
