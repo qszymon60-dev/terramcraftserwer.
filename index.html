@@ -3,35 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>terramcraft</title>
+    <title>TERRAMCRAFT</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+<header class="navbar">
+    <div class="logo">
+        TERRAMCRAFT
+    </div>
 
-    <img class="logo-img" src="logo.png" alt="TERRAMCRAFT">
+    <nav>
+        <a href="#home">Strona Główna</a>
+        <a href="#serwer">Serwer</a>
+        <a href="#vip">VIP</a>
+        <a href="#admin">Administracja</a>
+        <a href="#discord">Discord</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <img src="logo.png" class="hero-logo" alt="TerramCraft Logo">
 
     <h1>TERRAMCRAFT</h1>
 
-        <p>IP Serwera:</p>
-        <div class="ip-box">
-            <span id="ip">terramcraft.falix.gg</span>
-            <button onclick="copyIP()">📋 Skopiuj IP</button>
-        </div>
+    <p>
+        Najlepszy serwer Minecraft Survival w Polsce
+    </p>
 
-    <div class="status" id="server-status">
-    🔄 Sprawdzanie serwera...
-</div>
-        
-        <h2>💎 Wersja PRO</h2>
-        <p>Najlepsza wersja naszego serwera!</p>
+    <div class="buttons">
 
-        <a class="discord" href="https://discord.gg/ggtfHtRTV" target="_blank">
-            Dołącz na Discord
+        <button onclick="copyIP()">
+            📋 Skopiuj IP
+        </button>
+
+        <a href="#" class="discord-btn">
+            💬 Discord
         </a>
+
     </div>
 
-    <script src="script.js"></script>
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
